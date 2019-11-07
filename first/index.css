@@ -1,24 +1,25 @@
 header {
     background-color: rgb(65, 65, 65);
-    height: 150px;    
+    height: 20vh;    
 }
 
 body{
     background-color: rgb(218, 218, 218);
+    height: 80vh;
 }
 
 main,
 footer {
-    width: calc(100vw - 300px);
+    width: 75%;
     margin: 0 auto;
 }
 
 main {
     background-color: rgb(241, 241, 241);
-    height: calc(100vh - 250px);
+    height: 70vh;
 }
 
 footer{
     background-color: rgb(34, 34, 34);
-    height: 100px;
+    height: 10vh;
 }
