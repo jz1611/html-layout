@@ -1,0 +1,44 @@
+header {
+    height: 100px;
+    background-color: lightgray;
+    padding: 10px 20px;
+}
+
+p {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .logo {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(112, 153, 214);
+}
+
+.text-area {
+    height: 300px;
+    padding: 50px;
+}
+
+.first-box,
+.second-box,
+.third-box,
+.fourth-box {
+    height: calc(25vh - 100px);
+}
+
+.first-box {
+    background-color: rgb(112, 153, 214);
+}
+
+.second-box {
+    background-color: rgb(88, 216, 216);
+}
+
+.third-box {
+    background-color: rgb(184, 224, 131);
+}
+
+.fourth-box {
+    background-color: rgb(255, 230, 0);
+}
